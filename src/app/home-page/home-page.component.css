@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    color: rgb(223, 215, 215);
+}
+
+hr {
+    margin: 5% auto 5% auto;
+    border-style: none;
+    border-top-style: solid;
+    border-color: #061737;
+    border-width: 3px;
+    width: 10%;
+    opacity: 0.1;
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+    filter: brightness(60%);
+    position: relative;
+}
+
+.top-container {
+    position: relative;
+    height: 50%
+}
+
+.another-top-container {
+    position: absolute;
+    color: #e0dede;
+    font-family: 'Cinzel', serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    padding-bottom: 180px;
+    text-align: center;
+}
+
+.name-header {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 4.5rem;
+    opacity: 0.9;
+}
+
+.company-description {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#company-sec {
+    padding-top: 100px;
+    background-color: rgb(68, 65, 65) !important;
+    font-family: 'Cinzel', serif;
+}
+
+#top-section {
+    margin-top: -150px;
+}
+
+/* ========================== COMPANY ======================== */
+
+.company-container {
+    margin: 100px 100px;
+    text-align: left;
+}
+
+/* for mobile versions */
+@media only screen and (max-width: 1040px) {
+
+    .another-top-container {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .company-container {
+        text-align: center;
+    }
+
+    .company-description {
+        text-align: center;
+    }
+
+    .name-header {
+        font-size: 2.5rem;
+    }
+
+    #top-section {
+        margin-top: -100px;
+    }
+
+    .company-purpose {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+.ml16 {
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.ml16 .letter {
+    display: inline-block;
+}

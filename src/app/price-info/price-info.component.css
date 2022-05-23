@@ -1,0 +1,23 @@
+.btn-outline-secondary {
+  width: 100px;
+  height: 35px;
+}
+
+#contact-sec {
+  margin: 0;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+
+}
+
+.card-img-top {
+  /* width: 300; height:400; */
+  height: 300px; width: 250px; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+a {
+  color: black;
+}
