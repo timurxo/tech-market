@@ -22,6 +22,14 @@ hr {
     position: relative;
 }
 
+.image2 {
+    height: 20%;
+    width: 20%;
+    /* filter: brightness(60%); */
+    /* position: relative; */
+    /* border-radius: 100%; */
+}
+
 .top-container {
     position: relative;
     height: 50%

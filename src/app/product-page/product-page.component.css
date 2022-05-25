@@ -20,6 +20,10 @@ img:hover {
     margin-right: auto;
 }
 
+.products-label {
+    font-family: 'Playfair Display', serif;
+}
+
 @media only screen and (max-width: 1040px) { 
     .product-container {
         margin-left: auto;

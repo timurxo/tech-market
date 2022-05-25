@@ -1,12 +1,12 @@
 .bottom-container {
     background-color: rgb(68, 65, 65) !important;
-    padding: 30px 0 10px;
+    padding: 50px 0 10px;
 }
 
 .copyright {
     color: #EAF6F6;
     font-size: 0.95rem;
-    padding: 20px 0;
+    /* margin: 20px 0; */
 }
 
 #footer {
