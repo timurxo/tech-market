@@ -185,3 +185,29 @@ hr {
     }
 
 }
+
+
+/* ------- animation ------- */
+.name-header {
+    animation-name: name-header-animation;
+    animation-duration: 3s;
+    position: relative;
+    color: white;
+}
+
+.pb-header {
+    animation-name: pb-header-animation;
+    animation-duration: 3s;
+    position: relative;
+    color: white;
+}
+
+@keyframes name-header-animation {
+    0%   {left:-50%; top:0%;}
+    100%  {left:0%; top:0%;}
+}
+
+@keyframes pb-header-animation {
+    0%   {left:50%; top:0%;}
+    100%  {left:0%; top:0%;}
+}

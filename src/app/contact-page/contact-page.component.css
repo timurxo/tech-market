@@ -183,3 +183,19 @@ a, a:hover {
         margin: 50px 0px;
     }
 }
+
+/* ------- animation ------- */
+.contact-header {
+    animation-name: contact-header-animation;
+    animation-duration: 3s;
+    position: relative;
+    color: white;
+}
+
+@keyframes contact-header-animation {
+    0%   {left:-70%; top:0%;}
+    100%  {left:0%; top:0%;}
+  }
+
+
+ 
