@@ -86,6 +86,7 @@ hr {
 
     .company-container {
         text-align: center;
+        margin-top: 50px;
     }
 
     .company-description {
@@ -93,7 +94,7 @@ hr {
     }
 
     .name-header {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #top-section {
@@ -102,17 +103,14 @@ hr {
 
     .company-purpose {
         font-size: 1rem;
+        padding-top: 20px;
     }
 
-}
+    .pb-header {
+        font-size: 1.5rem;
+    }
 
-
-
-.ml16 {
-    text-transform: uppercase;
-    overflow: hidden;
-}
-
-.ml16 .letter {
-    display: inline-block;
+    .our-company-header {
+        font-size: 2rem;
+    }
 }

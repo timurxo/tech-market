@@ -23,7 +23,7 @@
 
 .name-header {
     padding-bottom: 20px;
-    color: white;
+    color: rgb(233, 223, 223);
     font-size: 4.5rem;
     opacity: 0.9;
 }
@@ -49,11 +49,12 @@
     }
 
     .name-header {
-        font-size: 2.5rem;
+        margin-top: 30px;
+        font-size: 2rem;
     }
 
     .email-header, .tel-header {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .contact-section {

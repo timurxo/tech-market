@@ -1,13 +1,13 @@
 a {
-    color: rgb(218, 209, 209);
+    color: rgb(211, 201, 201);
     font-family: 'STIX Two Text', serif;
     margin-top: 20px;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 img {
     margin-top: 90px;
-
 }
 
 img:hover {
@@ -24,6 +24,14 @@ img:hover {
     font-family: 'Playfair Display', serif;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 @media only screen and (max-width: 1040px) { 
     .product-container {
         margin-left: auto;
@@ -31,6 +39,25 @@ img:hover {
     }
 
     img {
-        margin: auto;
+        margin-top: 10px;
+        margin-right: 50px;
+        /* margin: auto; */
     }
+
+    .product-image {
+        padding-left: 15%;
+        /* height: 90%; */
+        width: 200;
+        height: 300;
+    }
+
+    .product-name, .purpose-header, p, .tech-char-header {
+        text-align: center;
+    }
+
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
