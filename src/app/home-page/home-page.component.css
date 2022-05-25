@@ -77,7 +77,7 @@ hr {
 }
 
 /* for mobile versions */
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 488px) {
 
     .another-top-container {
         padding-top: 25px;
@@ -94,11 +94,39 @@ hr {
     }
 
     .name-header {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #top-section {
         margin-top: -100px;
+    }
+
+    .pb-header {
+        font-size: 1.4rem;
+    }
+
+    .our-company-header {
+        font-size: 1.6rem;
+    }
+
+    .we-operate-header {
+        font-size: 1.4rem;
+    }
+
+    .company-purpose {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 488px) and (max-width: 1050px) {
+
+    .another-top-container {
+        padding-top: 200px;
+    }
+
+    .name-header {
+        font-size: 2.5rem;
     }
 
     .pb-header {
