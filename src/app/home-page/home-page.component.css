@@ -101,16 +101,20 @@ hr {
         margin-top: -100px;
     }
 
-    .company-purpose {
-        font-size: 1rem;
-        padding-top: 20px;
-    }
-
     .pb-header {
         font-size: 1.5rem;
     }
 
     .our-company-header {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .we-operate-header {
+        font-size: 1.6rem;
+    }
+
+    .company-purpose {
+        font-size: 1rem;
+        padding-top: 20px;
     }
 }
