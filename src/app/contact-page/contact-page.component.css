@@ -41,8 +41,12 @@
   'opsz' 48
 }
 
-a {
+a, a:hover {
     color: rgb(233, 223, 223);
+}
+
+.tel-header {
+    padding-top: 15px;
 }
 
 @keyframes slidein_from_right {
@@ -77,8 +81,7 @@ a {
     }
 
     .another-top-container {
-        padding-top: 25px;
-        padding-bottom: 0px;
+        padding-top: 300px;
     }
 
     .company-container, .company-description {
@@ -98,6 +101,7 @@ a {
         margin-bottom: 550px;
         background-color: black;
     }
+
 }
 
 @media (min-width: 488px) and (max-width: 1000px) {
@@ -129,4 +133,16 @@ a {
         background-color: black;
     }
 
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .another-top-container {
+        padding-top: 600px;
+    }
+    
+    .image1 {
+        background-size: cover;
+        position: fixed;
+    }
 }
