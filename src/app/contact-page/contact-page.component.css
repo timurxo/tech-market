@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    color: rgb(223, 215, 215);
+}
+
+hr {
+    margin: 5% auto 5% auto;
+    border-style: none;
+    border-top-style: solid;
+    border-color: #061737;
+    border-width: 3px;
+    width: 10%;
+    opacity: 0.1;
+}
+
 .image1 {
     height: 100%;
     width: 100%;
@@ -17,23 +34,40 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.9;
     padding-bottom: 180px;
     text-align: center;
 }
 
-.name-header {
+.contact-header {
     padding-bottom: 20px;
-    color: rgb(233, 223, 223);
+    color: white;
     font-size: 4.5rem;
     opacity: 0.9;
 }
 
-.contact-section {
+.contact-description {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contact-sec {
+    padding-top: 100px;
+    background-color: rgb(68, 65, 65) !important;
+    font-family: 'Cinzel', serif;
+}
+
+#top-section {
     margin-top: -150px;
 }
 
+a, a:hover {
+    color: rgb(233, 223, 223);
+}
 
 .material-symbols-outlined {
+  font-size: 5rem;
+  padding-bottom: 10px;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -41,108 +75,111 @@
   'opsz' 48
 }
 
-a, a:hover {
-    color: rgb(233, 223, 223);
+.contact-container {
+    margin: 80px 100px;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
-.tel-header {
-    padding-top: 15px;
-}
-
-@keyframes slidein_from_right {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-/* @keyframes slidein_from_left {
-    from {
-        margin-left: 100%;
-        width: 100%;
-    }
-
-    to {
-        margin-left: 100%;
-        width: 300%;
-    }
-} */
-  
 /* for mobile versions */
-@media only screen and (max-width: 488px) {
+@media only screen and (max-width: 495px) {
 
-    .top-container {
+    .another-top-container {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .contact-container {
+        text-align: center;
         margin-top: 50px;
     }
 
-    .another-top-container {
-        padding-top: 300px;
-    }
-
-    .company-container, .company-description {
+    .contact-description {
         text-align: center;
     }
 
-    .name-header {
-        margin-top: 30px;
+    .contact-header {
+        font-size: 1.8rem;
+    }
+
+    #top-section {
+        margin-top: -100px;
+    }
+
+    .our-contact-header {
+        font-size: 1.6rem;
+    }
+
+    .material-symbols-outlined {
         font-size: 2rem;
     }
 
     .email-header, .tel-header {
         font-size: 1rem;
     }
-
-    .contact-section {
-        margin-bottom: 550px;
-        background-color: black;
-    }
-
 }
 
-@media (min-width: 488px) and (max-width: 1000px) {
-
-    .top-container {
-        margin-top: 0px;
-    }
+@media (min-width: 495px) and (max-width: 1050px) {
 
     .another-top-container {
-        padding-top: 25px;
-        padding-bottom: 0px;
+        padding-top: 200px;
     }
 
-    .company-container, .company-description {
-        text-align: center;
+    .contact-header {
+        font-size: 2.5rem;
     }
 
-    .name-header {
-        margin-top: 30px;
-        font-size: 2.3rem;
+    .our-contact-header {
+        font-size: 1.8rem;
     }
+
+    .material-symbols-outlined {
+        font-size: 4rem;
+        padding-bottom: 20px;
+    }
+
 
     .email-header, .tel-header {
         font-size: 1.3rem;
     }
+}
 
-    .contact-section {
-        margin-bottom: 550px;
-        background-color: black;
+
+@media only screen and (max-width: 370px) {
+
+    .contact-container {
+        margin-top: 50px;
+    }
+
+    .contact-header {
+        font-size: 1.0rem;
+    }
+
+    .our-contact-header {
+        font-size: 0.9rem;
     }
 
 }
 
 @media only screen and (max-width: 1000px) {
-
-    .another-top-container {
-        padding-top: 600px;
+    .email-div{
+        margin-top: 50px;
     }
-    
-    .image1 {
-        background-size: cover;
-        position: fixed;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .email-header, .tel-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .email-header, .tel-header {
+        font-size: 1rem;
+    }
+
+    .contact-container {
+        margin: 50px 0px;
     }
 }
